@@ -1,3 +1,7 @@
- # Daria Sheludyakova
- ## Contacts:
- 
+ # DARIA SHELUDYAKOVA
+ ## CONTACTS:
+ ## ABOUT ME:
+ ## SKILLS:
+ ## CODE EXAMPLE:
+ ## WORK EXPERIENCE:
+ ## EDUCATION
