@@ -1,1 +1,45 @@
-css
+.header{
+    background-color: rgb(123, 123, 148);
+    padding: 12px 0 12px;
+    
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto; 
+    
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+    list-style-type: none;
+}
+
+.photo{
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+.photo-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name{
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: rgb(53, 53, 112);
+    padding-right: 40px;
+}
