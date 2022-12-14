@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .header{
     background-color: rgb(123, 123, 148);
     padding: 12px 0 12px;
@@ -13,33 +17,100 @@
 .list{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .menu{
-    font-family: 'Roboto';
     font-weight: 400;
     color: white;
     font-size: 15px;
     line-height: 15px;
     list-style-type: none;
 }
+.menu:hover{
+    color: rgb(53, 53, 112);
+}
 
 .photo{
-    margin-top: 40px;
-    margin-left: 40px;
     border-radius: 50%;
     max-width: 100px;
 }
 
 .photo-name{
+    max-width: 800px;
+    margin: 0 auto; 
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.name-subtitle{
+    display: flex;
+    flex-direction: column;
+}
 .name{
-    font-family: 'Roboto';
     font-weight: 700;
     color: rgb(53, 53, 112);
-    padding-right: 40px;
+    }
+
+.subtitle{
+    text-align: center;
+    font-weight: 400;
+    color: rgb(53, 53, 112);
 }
+
+.contact{
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 9px;
+    color: rgb(53, 53, 112);
+    list-style-type: none;
+}
+
+.contact-link{
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(180, 59, 152);
+}
+
+.list-title{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 17px;
+    list-style-type: none;
+    color: rgb(53, 53, 112);
+}
+
+.contacts-about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    max-width: 500px;
+    
+}
+
+.text{
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    color: rgb(53, 53, 112);
+    list-style-type: none;
+}
+
+.contacts{
+    max-width: 400px;
+}
+
+.list-title-about{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(53, 53, 112);
+}
+
+
