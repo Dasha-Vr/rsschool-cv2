@@ -21,9 +21,8 @@
                 <ul class="list">
                     <li class="menu">Contacts</li>
                     <li class="menu">About me</li>
-                    <li class="menu">Skills</li>
+                    <li class="menu"><a href="#skills">Skills</a></li>
                     <li class="menu">Code example</li>
-                    <li class="menu">Work experience</li>
                     <li class="menu">Education</li>
                     <li class="menu">English</li>
                 </ul>
@@ -45,22 +44,54 @@
                 <div class="contacts-about">
                     <div class="contacts">
                         <ul class="list-of-contacts">
-                            <div class="list-title">CONTACTS</div>
+                            <div class="list-title-contacts">CONTACTS</div>
                             <li class="contact">Moscow, Russia</li>
-                            <li class="contact"><nobr>Email: <a class="contact-link" href="mailto:dasha-sheludyakova@yandex.ru">dasha-sheludyakova@yandex.ru</a><nobr></nobr></li>
-                            <li class="contact">Github: <a class="contact-link" href="https://github.com/Dasha-Vr">Dasha-Vr</a></li>
-                            <li class="contact">Discord: <a class="contact-link" href="https://discordapp.com/users/896698553064366120/">Da_sha</a></li>
+                            <li class="contact">Email: <a class="contact-link"
+                                    href="mailto:dasha-sheludyakova@yandex.ru">dasha-sheludyakova@yandex.ru</a></li>
+                            <li class="contact">Github: <a class="contact-link"
+                                    href="https://github.com/Dasha-Vr">Dasha-Vr</a></li>
+                            <li class="contact">Discord: <a class="contact-link"
+                                    href="https://discordapp.com/users/896698553064366120/">Da_sha</a></li>
                         </ul>
                     </div>
                     <div class="about">
-                        <h2 class="list-title-about">ABOUT ME</h2>
-                        <p class="text">I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for me. 
-                            I have completed several training projects and now I would like to take part in the creation of a real 
-                            JavaScript project. My goal is to learn a pure JavaScript at a good level and learn the React library. 
-                            I will be glad to join the creation of open source projects. I would like to work under the guidance of
-                            an experienced developer to gain practical experience.</p>
+                        <h2 class="list-title">ABOUT ME</h2>
+                        <p class="text"> Я начала учиться програмированию полгода назад. Вначале изучала питон, потом
+                            поняла что мне больше подходит джава скипт.
+                            Мне очень нравится верстать сайты надеюсь когда-нибудь научиться это делать на
+                            профессиональном уровне.
+                            Кроме програмирования увлекаюсь фотографией и поэзией.</p>
                     </div>
                 </div>
+            </section>
+            <section class="skills-and-code">
+                <div class="skills" id="skills">
+                    <h2 class="list-title">SKILLS</h2>
+                    <ul class="list-of-skills">
+                        <li class="name-of-skill">Web-development: <p class="skill">HTML5, CSS3, JavaScript, Python</p>
+                        </li>
+                        <li class="name-of-skill">Version control:<p class="skill">GIT, Github</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="code-ex">
+                    <h2 class="list-title">CODE EXAMPLE</h2>
+
+                    <pre class="code"><code>function nthFibo(n) {
+    let line = [0, 1];
+    let v = 0;
+        while (v < n) {
+        a = line[line.length -1];
+        b = line[line.length -2];
+        v = a + b;
+        line.push(v);
+        }
+    return line;
+    }
+    </code></pre>
+
+                </div>
+
             </section>
         </div>
     </main>

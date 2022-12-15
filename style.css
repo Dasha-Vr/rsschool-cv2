@@ -26,6 +26,7 @@ body{
     font-size: 15px;
     line-height: 15px;
     list-style-type: none;
+    padding-inline-start: 0;
 }
 .menu:hover{
     color: rgb(53, 53, 112);
@@ -33,7 +34,7 @@ body{
 
 .photo{
     border-radius: 50%;
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .photo-name{
@@ -73,14 +74,15 @@ body{
     font-size: 12px;
     text-decoration: none;
     color: rgb(180, 59, 152);
+   
 }
 
-.list-title{
+.list-title-contacts{
     font-weight: 400;
     font-size: 20px;
     padding-bottom: 17px;
     list-style-type: none;
-    color: rgb(53, 53, 112);
+    color: rgb(180, 59, 152);
 }
 
 .contacts-about{
@@ -107,10 +109,46 @@ body{
     max-width: 400px;
 }
 
-.list-title-about{
+.list-title{
     font-weight: 400;
     font-size: 20px;
+    color:  rgb(180, 59, 152);
+}
+
+.name-of-skill{
+    font-weight: 400;
+    font-size: 12px;
+    list-style-type: none;
     color: rgb(53, 53, 112);
 }
 
+.skill{
+    font-weight: 400;
+    font-size: 12px;
+    list-style-type: none;
+    color:  rgb(180, 59, 152)
+}
 
+.skills-and-code{
+    display: flex;
+    justify-content: space-between;
+}
+
+.code{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(53, 53, 112);
+}
+
+.code-ex{
+    margin-right: 280px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: rgb(53, 53, 112);
+}
