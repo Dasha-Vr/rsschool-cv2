@@ -226,5 +226,14 @@ a:hover{
     padding-right: 112px;
 }
 
+.list{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu{
+    font-size: 20px;
+    line-height: 20px;
+}
 
 }
