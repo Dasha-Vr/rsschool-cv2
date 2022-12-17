@@ -19,65 +19,59 @@
         <div class="container">
             <nav class="navigation">
                 <ul class="list">
-                    <li class="menu">Contacts</li>
-                    <li class="menu">About me</li>
+                    <li class="menu"><a href="#contacts">Contacts</a></li>
+                    <li class="menu"><a href="#about">About me</a></li>
                     <li class="menu"><a href="#skills">Skills</a></li>
-                    <li class="menu">Code example</li>
-                    <li class="menu">Education</li>
-                    <li class="menu">English</li>
+                    <li class="menu"><a href="#code">Code example</a></li>
+                    <li class="menu"><a href="#education">Education</a></li>
+                    <li class="menu"><a href="#english">English</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="container">
-            <section class="photo-and-name">
-                <div class="photo-name">
-                    <img class="photo" src="image.jpg" alt="photo">
-                    <div class="name-subtitle">
-                        <h1 class="name">Daria Sheludiakova</h1>
-                        <h4 class="subtitle">student</h4>
-                    </div>
-                </div>
+        <div class="container main-container">
+            <section class="section">
+                <img class="photo" src="image.jpg" alt="photo">
             </section>
-            <section class="contacts-and-about">
-                <div class="contacts-about">
-                    <div class="contacts">
-                        <ul class="list-of-contacts">
-                            <div class="list-title-contacts">CONTACTS</div>
-                            <li class="contact">Moscow, Russia</li>
-                            <li class="contact">Email: <a class="contact-link"
-                                    href="mailto:dasha-sheludyakova@yandex.ru">dasha-sheludyakova@yandex.ru</a></li>
-                            <li class="contact">Github: <a class="contact-link"
-                                    href="https://github.com/Dasha-Vr">Dasha-Vr</a></li>
-                            <li class="contact">Discord: <a class="contact-link"
-                                    href="https://discordapp.com/users/896698553064366120/">Da_sha</a></li>
-                        </ul>
-                    </div>
-                    <div class="about">
-                        <h2 class="list-title">ABOUT ME</h2>
-                        <p class="text"> Я начала учиться програмированию полгода назад. Вначале изучала питон, потом
-                            поняла что мне больше подходит джава скипт.
-                            Мне очень нравится верстать сайты надеюсь когда-нибудь научиться это делать на
-                            профессиональном уровне.
-                            Кроме програмирования увлекаюсь фотографией и поэзией.</p>
-                    </div>
-                </div>
+            <section class="section">
+                <h1 class="name">Daria Sheludiakova</h1>
+                <h4 class="subtitle">student</h4>
             </section>
-            <section class="skills-and-code">
-                <div class="skills" id="skills">
-                    <h2 class="list-title">SKILLS</h2>
-                    <ul class="list-of-skills">
-                        <li class="name-of-skill">Web-development: <p class="skill">HTML5, CSS3, JavaScript, Python</p>
-                        </li>
-                        <li class="name-of-skill">Version control:<p class="skill">GIT, Github</p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="code-ex">
-                    <h2 class="list-title">CODE EXAMPLE</h2>
+            <section class="section" id="contacts">
+                <ul class="list-of-contacts">
+                    <div class="list-title-contacts">CONTACTS</div>
+                    <li class="contact">Moscow, Russia</li>
+                    <li class="contact">Email: <a class="contact-link"
+                            href="mailto:dasha-sheludyakova@yandex.ru">dasha-sheludyakova@yandex.ru</a></li>
+                    <li class="contact">Github: <a class="contact-link" href="https://github.com/Dasha-Vr">Dasha-Vr</a>
+                    </li>
+                    <li class="contact">Discord: <a class="contact-link"
+                            href="https://discordapp.com/users/896698553064366120/">Da_sha</a></li>
+                </ul>
 
-                    <pre class="code"><code>function nthFibo(n) {
+            </section>
+            <section class="section" id="about">
+                <h2 class="title">ABOUT ME</h2>
+                <p class="text"> I study programming for six months. At first I was studying python, but then 
+                    I realized that JavaScript is more suitable for me. I really like to make
+                    websites, I hope someday I will be able to do it at a professional level. In 
+                    addition to programming, I  am fond of photography and poetry.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="title">SKILLS</h2>
+                <ul class="list-of-skills">
+                    <li class="name-of-skill">Web-development: <p class="skill">HTML5, CSS3, JavaScript, Python</p>
+                    </li>
+                    <li class="name-of-skill">Version control:<p class="skill">GIT, Github</p>
+                    </li>
+                </ul>
+
+            </section>
+            <section class="section" id="code">
+                <h2 class="title">CODE EXAMPLE</h2>
+
+                <pre class="code"><code>function nthFibo(n) {
     let line = [0, 1];
     let v = 0;
         while (v < n) {
@@ -90,11 +84,31 @@
     }
     </code></pre>
 
-                </div>
 
+
+            </section>
+            <section class="section" id="education">
+                <h2 class="title">EDUCATION</h2>
+                <p class="text">M. V. Lomonosov Moscow State University</p>
+
+            </section>
+            <section class="section" id="english">
+                <h2 class="title">ENGLISH</h2>
+                <p class="text">A1 - Beginner</p>
             </section>
         </div>
     </main>
+    <footer class="footer">
+        <div class="container footer-container">
+
+            <div class="year-link">
+                <p class="footer-text">©2022</p>
+                <a class="github-link" href="https://github.com/Dasha-Vr">Dasha-Vr</a>
+            </div>
+            <a class="logo" href="https://rs.school/js-stage0/"><img class="logo-rs" src="rs_school_js.svg" alt="logo"></a>
+        </div>
+
+    </footer>
 
 </body>
 

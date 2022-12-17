@@ -8,6 +8,10 @@ body{
     
 }
 
+.main{
+    padding-top: 50px;
+}
+
 .container{
     max-width: 1040px;
     margin: 0 auto; 
@@ -56,7 +60,7 @@ body{
     }
 
 .subtitle{
-    text-align: center;
+    padding-left: 112px;
     font-weight: 400;
     color: rgb(53, 53, 112);
 }
@@ -109,7 +113,7 @@ body{
     max-width: 400px;
 }
 
-.list-title{
+.title{
     font-weight: 400;
     font-size: 20px;
     color:  rgb(180, 59, 152);
@@ -151,4 +155,76 @@ a{
 }
 a:hover{
     color: rgb(53, 53, 112);
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+.footer{
+    background-color: rgb(123, 123, 148);
+    padding: 12px 0 12px;
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+}
+
+.github-link{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.year-link{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 54px;
+    height: 20px;
+    display: block;
+    
+    
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-rs{
+    max-height: 20px;
+
+    
+}
+
+
+@media (max-width: 768px) {
+.section {
+    width: 100%;
+}
+.main{
+    display: flex;
+    text-align: center;
+    
+}
+.subtitle{
+    padding-right: 112px;
+}
+
+
 }
