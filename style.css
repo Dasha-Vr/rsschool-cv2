@@ -1,1 +1,239 @@
-css
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: rgb(123, 123, 148);
+    padding: 12px 0 12px;
+    
+}
+
+.main{
+    padding-top: 50px;
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto; 
+    
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu{
+    font-weight: 400;
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.menu:hover{
+    color: rgb(53, 53, 112);
+}
+
+.photo{
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.photo-name{
+    max-width: 800px;
+    margin: 0 auto; 
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-subtitle{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-weight: 700;
+    color: rgb(53, 53, 112);
+    }
+
+.subtitle{
+    padding-left: 112px;
+    font-weight: 400;
+    color: rgb(53, 53, 112);
+}
+
+.contact{
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 9px;
+    color: rgb(53, 53, 112);
+    list-style-type: none;
+}
+
+.contact-link{
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(180, 59, 152);
+   
+}
+
+.list-title-contacts{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 17px;
+    list-style-type: none;
+    color: rgb(180, 59, 152);
+}
+
+.contacts-about{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about{
+    max-width: 500px;
+    
+}
+
+.text{
+    font-weight: 400;
+    font-size: 12px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    color: rgb(53, 53, 112);
+    list-style-type: none;
+}
+
+.contacts{
+    max-width: 400px;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 20px;
+    color:  rgb(180, 59, 152);
+}
+
+.name-of-skill{
+    font-weight: 400;
+    font-size: 12px;
+    list-style-type: none;
+    color: rgb(53, 53, 112);
+}
+
+.skill{
+    font-weight: 400;
+    font-size: 12px;
+    list-style-type: none;
+    color:  rgb(180, 59, 152)
+}
+
+.skills-and-code{
+    display: flex;
+    justify-content: space-between;
+}
+
+.code{
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(53, 53, 112);
+}
+
+.code-ex{
+    margin-right: 280px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color: rgb(53, 53, 112);
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+.footer{
+    background-color: rgb(123, 123, 148);
+    padding: 12px 0 12px;
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+}
+
+.github-link{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.year-link{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 54px;
+    height: 20px;
+    display: block;
+    
+    
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-rs{
+    max-height: 20px;
+
+    
+}
+
+
+@media (max-width: 768px) {
+.section {
+    width: 100%;
+}
+.main{
+    display: flex;
+    text-align: center;
+    
+}
+.subtitle{
+    padding-right: 112px;
+}
+
+.list{
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.menu{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+}
