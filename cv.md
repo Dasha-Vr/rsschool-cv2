@@ -1,13 +1,3 @@
- # DARIA SHELUDYAKOVA
- ## CONTACTS:
- ## ABOUT ME:
- ## SKILLS:
- ## CODE EXAMPLE:
- ## WORK EXPERIENCE:
- ## EDUCATION
- ## ENGLISH:
-
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
